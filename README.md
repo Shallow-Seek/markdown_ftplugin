@@ -8,12 +8,6 @@ A simple and lightweighted markdown render ftplugin.
 
 ### 1. Custom Heading Rendering
 - Renders ATX headings (##, ###, etc.) with custom bullet symbols and colors. Replace them with two spaces to rid them.
-# H1:  (green)
-## H2:  (purple)
-### H3:  (yellow)
-#### H4:  (blue)
-##### H5:  (light blue)
-###### H6:  (green)
 
 ### 2. Table Rendering
 
@@ -28,7 +22,7 @@ Renders markdown tables with aligned columns and distinct header styling for imp
 - Replaces markdown quote markers (> ) with a vertical bar (▋)
 - Applies italic styling with a distinct color
 
->tthis is a quote
+> this is a quote
 
 ### 4. List Marker Enhancement
 - Transforms standard list markers into more visually appealing symbols:
