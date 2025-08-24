@@ -1,6 +1,9 @@
 # Markdown File Type Plugin for Neovim
 
 A simple and lightweighted markdown render ftplugin.
+
+![Markdown Rendering Style](2025-08-23_20-50.png)
+
 ## Elements rendered 
 
 ### 1. Custom Heading Rendering
@@ -14,22 +17,37 @@ A simple and lightweighted markdown render ftplugin.
 
 ### 2. Table Rendering
 
+Renders markdown tables with aligned columns and distinct header styling for improved readability. Automatically hides top and bottom borders when adjacent lines are not empty to avoid blocking content.
+
+| Feature          | Description                              |
+|------------------|------------------------------------------|
+| Header Styling   | Bold headers with distinct background    |
+| Border Handling  | Hides top/bottom borders near content    |
+
 ### 3. Block Quote Styling
 - Replaces markdown quote markers (> ) with a vertical bar (▋)
 - Applies italic styling with a distinct color
 
+>tthis is a quote
+
 ### 4. List Marker Enhancement
 - Transforms standard list markers into more visually appealing symbols:
   - `-` becomes ■
-  - `+` becomes ●
-  - `*` becomes ❖
+  + `+` becomes ●
+  * `*` becomes ❖
 
 ### 5. Code Block Highlighting
-- Adds a background color to fenced code blocks for better visibility
+
+```Python
+ Adds a background color to fenced code blocks for better visibility
+
+```
 
 ### 6. Thematic Break Visualization
-- Converts markdown thematic breaks (---) into full-width horizontal lines
 
+ Converts markdown thematic breaks (---) into full-width horizontal lines
+
+---
 ## Installation
 
 Simply place `markdown.lua` in your Neovim's `ftplugin` directory (typically `~/.config/nvim/ftplugin/`). 
