@@ -1,6 +1,6 @@
 # Markdown File Type Plugin for Neovim
 
-A simple and lightweighted markdown render plugin.
+A simple and lightweighted markdown render ftplugin.
 ## Elements rendered 
 
 ### 1. Custom Heading Rendering
@@ -25,7 +25,7 @@ A simple and lightweighted markdown render plugin.
   - `*` becomes ❖
 
 ### 5. Code Block Highlighting
-- Adds a  background color to fenced code blocks for better visibility
+- Adds a background color to fenced code blocks for better visibility
 
 ### 6. Thematic Break Visualization
 - Converts markdown thematic breaks (---) into full-width horizontal lines

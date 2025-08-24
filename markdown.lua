@@ -348,6 +348,10 @@ end
 
 --- Main function to refresh all markdown elements.
 local function refresh_all_elements()
+  local bufnr = vim.api.nvim_get_current_buf() 
+  if vim.bo[bufnr].filetype ~= "markdown" then
+    return
+  end
   local bufnr = vim.api.nvim_get_current_buf()
   vim.api.nvim_buf_clear_namespace(bufnr, namespace, 0, -1)
 
