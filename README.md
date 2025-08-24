@@ -8,12 +8,12 @@ A simple and lightweighted markdown render ftplugin.
 
 ### 1. Custom Heading Rendering
 - Renders ATX headings (##, ###, etc.) with custom bullet symbols and colors. Replace them with two spaces to rid them.
-  - H1:  (green)
-  - H2: 󰮊 (purple)
-  - H3:  (yellow)
-  - H4:  (blue)
-  - H5: 󰠖 (light blue)
-  - H6: 󰋑 (green)
+# H1:  (green)
+## H2:  (purple)
+### H3:  (yellow)
+#### H4:  (blue)
+##### H5:  (light blue)
+###### H6:  (green)
 
 ### 2. Table Rendering
 
